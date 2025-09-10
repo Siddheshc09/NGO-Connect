@@ -1,0 +1,20 @@
+import React from 'react';
+import Navigation from '@/components/Navigation';
+import HeroSection from '@/components/HeroSection';
+import PartnersSection from '@/components/PartnersSection';
+import CampaignPreview from '@/components/CampaignPreview';
+import Footer from '@/components/Footer';
+
+const Index = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <Navigation />
+      <HeroSection />
+      <PartnersSection />
+      <CampaignPreview />
+      <Footer />
+    </div>
+  );
+};
+
+export default Index;
